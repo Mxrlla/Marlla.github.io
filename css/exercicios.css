@@ -1,0 +1,69 @@
+body {
+  background: linear-gradient(#febe01, #f5b163fa);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 70px;
+  font-weight: 700px;
+  text-align: center;
+  border-left: #222222;
+}
+
+hr {
+  width: 50%;
+  height: 10px;
+  background: #222222;
+  border: none;
+  border-radius: 5px;
+}
+.box {
+  background-color: #222222;
+  padding: 30px;
+  border-radius: 5px;
+}
+h2 {
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  margin: 0px;
+}
+h2 span {
+  color: #febe01;
+}
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin: 20px 0px;
+  color: #b2b2b2;
+}
+p span {
+  color: #febe01;
+  font-weight: 700px;
+}
+a {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 10px;
+  margin: auto;
+  border-color: #febe01;
+  background: #febe01;
+  color: #222222;
+  text-decoration: none;
+  border: 1px solid none;
+}
+a:hover {
+  color: #febe01;
+  background: #222222;
+  border: 1px solid #febe01;
+  border-radius: 5px;
+}
+#grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 45px;
+}

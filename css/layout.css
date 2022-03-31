@@ -1,0 +1,53 @@
+body {
+  background: url("/imagens/jpg/picture-gd57926102_1920.jpg");
+  background-repeat: no-repeat; /* Para não repetir a imagem   */
+  background-size: cover; /*ocupação da tela toda */
+  background-position: center;
+  background-attachment: fixed;
+}
+h1 {
+  width: 100%;
+  display: block;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 60px;
+  text-align: center;
+  color: #472403;
+  border: 2222222222;
+  text-shadow: 1px 1px 5px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 400px;
+  padding: 2px 15px;
+}
+.mainheader {
+  background: #cc6424;
+  right: 200px;
+  border: 0px;
+  align-items: center;
+  display: flex;
+  justify-content: right;
+  margin: 0px 400px;
+  padding: 2px 15px;
+}
+.quadrado1 {
+  background: #f8f5ef;
+  width: 60%;
+  margin: 40px auto 0 auto;
+  padding: 15px 20px;
+  border-radius: 20px;
+  text-align: center;
+  border: 0px;
+}
+
+hr {
+  width: 60%;
+  height: 15px;
+  background: #ff7b00a1;
+  border-radius: 15px 15px 0px 0px;
+}
+img {
+  top: 25px;
+  right: 200px;
+  margin: 40px auto 0 auto;
+}

@@ -1,0 +1,156 @@
+/* Corpo da pagina */
+body {
+  background: url("/imagens/jpg/backverde.jpg");
+  background-repeat: no-repeat; /* Para não repetir a imagem   */
+  background-size: cover; /*ocupação da tela toda */
+  background-position: center;
+  background-attachment: fixed; /*pra imagem ficar travada, ou seja rolar somente o conteudo*/
+}
+
+/* titulo 1 */
+h1 {
+  text-align: center;
+  font-size: 60px;
+  color: rgb(0, 0, 0);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-shadow: 1px 1px 5px;
+}
+/* titulo 2 */
+h2 {
+  text-align: center;
+  font-size: 55px;
+  color: rgb(0, 0, 0);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-shadow: 1px 1px 5px rgb(32, 52, 90);
+}
+
+/* Configuração da linhas */
+hr {
+  width: 50%;
+  height: 15px;
+  background: rgba(52, 73, 192, 0.404);
+  border-radius: 5px;
+}
+/* só uma linha de cor diferente */
+.linha {
+  background: rgba(48, 60, 226, 0.404);
+}
+/* Configuração paragrafos */
+p {
+  width: 50%; /*tamanho */
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+  border-radius: 5px; /* borda */
+}
+.caixa1 {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  width: 50%;
+  margin: 0 auto;
+}
+/* Configuração foto da criança */
+#foto1 {
+  width: 10%;
+  position: absolute;
+  top: 25px;
+  right: 200px;
+  display: block;
+  border-radius: 100px;
+}
+#foto2 {
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+/* Configuração videos bolhas */
+.video1 {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+/* Configurção do link */
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
+/* Configuração para o link do clique aqui */
+a:hover {
+  text-decoration: solid;
+  color: rgb(92, 43, 226);
+}
+
+/* Configuração para o link apos acessado */
+a:visited {
+  color: rgb(0, 0, 0);
+}
+
+/* Configuração para o link apos acessado */
+.textorodape {
+  text-align: center;
+}
+.livro {
+  background-color: #ffff;
+  width: 20%;
+  padding: 20px 0px 15px;
+  font-size: 13px;
+  margin: 20px auto;
+  border-radius: 5px;
+  flex-direction: column;
+}
+.livro1 {
+  background-color: #ffff;
+  width: 20%;
+  padding: 20px 0px 15px;
+  font-size: 13px;
+  margin: 20px auto;
+  border-radius: 5px;
+  flex-direction: column;
+}
+.livro2 {
+  background-color: #ffff;
+  width: 20%;
+  padding: 20px 0px 15px;
+  font-size: 13px;
+  margin: 20px auto;
+  border-radius: 5px;
+  flex-direction: column;
+}
+.livro4 {
+  background-color: #ffff;
+  width: 20%;
+  padding: 20px 0px 15px;
+  font-size: 13px;
+  margin: 20px auto;
+  border-radius: 5px;
+  flex-direction: column;
+}
+.livro5 {
+  background-color: #ffff;
+  width: 20%;
+  padding: 20px 0px 15px;
+  font-size: 13px;
+  margin: 20px auto;
+  border-radius: 5px;
+  flex-direction: column;
+}
+
+a span {
+  width: 50%;
+}
+img {
+  font-size: 13px;
+  line-height: 19px;
+  text-align: center;
+  border-radius: 3px;
+  box-shadow: #000000 0px 2px 5px 1px;
+  color: #0f1111;
+  width: 20%;
+}

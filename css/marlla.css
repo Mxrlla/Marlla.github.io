@@ -1,0 +1,40 @@
+body {
+  background: #ffe9baca;
+}
+.bola1 {
+  height: 550px;
+  width: 550px;
+  border-radius: 20%;
+  position: absolute;
+  z-index: -1;
+  background: linear-gradient(
+    220deg,
+    rgba(252, 212, 151, 1) 21%,
+    rgba(154, 206, 245, 1) 84%
+  );
+  top: 100px;
+  left: 400px;
+}
+.bola2 {
+  height: 550px;
+  width: 550px;
+  border-radius: 20%;
+  position: absolute;
+  z-index: 0;
+  background: rgba(154, 206, 245, 1);
+  background: linear-gradient(
+    315deg,
+    rgba(252, 212, 151, 1) 21%,
+    rgba(154, 206, 245, 1) 84%
+  );
+  bottom: 20px;
+  right: 500px;
+}
+.card {
+  height: px;
+  width: 800px;
+  position: absolute;
+  background: #c2d9f2;
+  bottom: 20px;
+  right: 500px;
+}
