@@ -26,11 +26,43 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-seta:a {
-  background-color: rgba(74, 100, 228, 0.553);
+/* Seta pra subir  */
+.seta a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 8px;
+  height: 25px;
+  width: 25px;
   border-radius: 50%;
-  right: 500px;
+  left: 40px;
 }
+
+a:hover {
+  background-color: white;
+  color: #2151ed;
+}
+
+.seta {
+  margin: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-content: flex-end;
+  position: fixed;
+  border-radius: 50%;
+  background-color: #2151ed;
+}
+.arrow {
+  margin: 8px 8px;
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+/* fim da seta */
 .menu {
   width: 30%;
 
